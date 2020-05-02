@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 apt-get update -y && apt-get install apt-utils vim git curl ack-grep -y
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
